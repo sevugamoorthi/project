@@ -6,7 +6,7 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = Baaloo G Iyer
 
 # (str) Package name
 package.name = myapp
@@ -42,7 +42,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.1.0, kivymd==1.1.1, sdl2_ttf==2.0.15, pillow
+requirements = python3==3.7.6,hostpython3==3.7.6,kivy==1.9.1, pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -73,9 +73,10 @@ orientation = portrait
 
 #
 # author = © Copyright Info
+osx.python_version = 3.7.6
 
 # Kivy version to use
-osx.kivy_version = 2.2.0
+osx.kivy_version = 1.9.1
 
 #
 # Android specific
