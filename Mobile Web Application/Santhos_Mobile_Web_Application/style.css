@@ -1,0 +1,151 @@
+
+
+.rk-detail-page-bg-container {
+    background-image: url('https://wallpapercave.com/mwp/wp4477786.jpg');
+    background-size: cover;
+}
+
+.rk-detail-page-text-style {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.rk-detail-page-text-style-1 {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.icon-adjust {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.icon-adjust-1 {
+    color: #babdd1;
+}
+
+.rk-detail-page-text-style-2 {
+    color: white;
+    font-size: 20px;
+}
+
+.rk-detail-page-bottom-container {
+    background-color: #1f2324;
+}
+
+.rk-detail-page-text-style-3 {
+    color: #babdd1;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rk-detail-page-text-style-4 {
+    color: #babdd1;
+    font-size: 9px;
+    font-weight: bold;
+}
+
+.rk-detail-page-img-size {
+    width: 270px;
+    margin-top: 50px;
+}
+
+.rk-detail-page-para {
+    color: white;
+    font-family: "Playfair Display";
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.rk-detail-page-heading {
+    color: white;
+    font-family: "Playfair Display SC";
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+#sectionSanthosHomePage {
+    background-image: url('https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939732/IMG-20230524-WA0001_e1jpg2.jpg');
+    background-size: cover;
+    height: 720px;
+}
+
+.know-more-button {
+    border-width: 0px;
+    margin-top: 650px;
+    border-width: 0px;
+}
+
+.rk-about {
+    padding-bottom: 180px;
+}
+
+.rk-parent {
+    padding-bottom: 270px;
+}
+
+.rk-siblings {
+    padding-bottom: 60px;
+}
+
+.rk-hobbies {
+    padding-bottom: 150px;
+}
+
+.rk-childhood {
+    padding-bottom: 260px;
+}
+
+.rk-car-love {
+    padding-bottom: 130px;
+}
+
+.rk-college {
+    padding-bottom: 210px;
+}
+
+.rk-dream {
+    padding-bottom: 190px;
+}
+
+.rk-ambition {
+    padding-bottom: 250px;
+}
+
+.rk-nav-img-size {
+    width: 18vw;
+    height: 9vh;
+    border-radius: 40px;
+}
+
+.rk-experience-para {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.rk-experience-heading {
+    color: white;
+    font-family: "Playfair Display";
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.rk-experience-img-size {
+    width: 270px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}

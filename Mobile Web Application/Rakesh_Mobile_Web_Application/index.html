@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7308e4a722.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <div id="sectionRakeshHomePage" class="pb-5">
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn btn-primary know-more-button" onclick="display('sectionRakeshDetailedPage')">Know More</button>
+            </div>
+        </div>
+    </div>
+    <div class="rk-detail-page-bg-container">
+        <div id="sectionRakeshDetailedPage">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1683023158/My%20project%20images/PicsArt_05-02-03.54.50_cqe79q.png" class="rk-nav-img-size" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#" onclick="display('sectionRakeshHomePage')">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#" onclick="display ('sectionRakeshDetailedPage')">Main page</a>
+                        <a class="nav-item nav-link" href="#" onclick="display('sectionRakeshWorkExperience')">Work Experiences</a>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <h1 class="rk-detail-page-text-style" onclick="display('sectionRakeshAboutPage')">About<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" class="icon-adjust" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshParentPage')">Parents<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshSiblingsPage')">Siblings<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshHobbiesPage')">Hobbies<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshChildhoodPage')">Childhood<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshCollegePage')">College<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshCarLovePage')">Car Love<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshAmbitionPage')">Ambition<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionRakeshDreamPage')">Dream<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+            </div>
+            <div class="rk-detail-page-bottom-container bg-dark mt-5 mb-5">
+                <h1 class="rk-detail-page-text-style-3 ml-3">Contact Me</h1>
+                <div class="d-flex flex-row ml-4">
+                    <i class="fab fa-whatsapp icon-adjust-1 mt-1"></i>
+                    <p class="rk-detail-page-text-style-4 ml-1 m-1">+918248981550</p>
+                </div>
+                <div class="d-flex flex-row ml-4 mt-2">
+                    <i class="fab fa-facebook-square icon-adjust-1"></i>
+                    <p class="rk-detail-page-text-style-4 ml-1">Sevugamoorthi</p>
+                </div>
+                <div class="d-flex flex-row ml-4 ">
+                    <i class="fas fa-envelope icon-adjust-1"></i>
+                    <p class="rk-detail-page-text-style-4 ml-1">sevugamoorthi738@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div id="sectionRakeshAboutPage" class="rk-about">
+            <h1 class="rk-detail-page-heading">About</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162438/My%20project%20images/IMG-20230416-WA0001_t7xpg1.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He was live in Kattukudipatti. He was completed his school from L.K.G to U.K.G in Lions Matriculation Higher Secondary School in Ponnamaravathi, 1st standard to 10th standard in Kendriya Vidyalaya in Chennai.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshParentPage" class="rk-parent">
+            <h1 class="rk-detail-page-heading">Parents</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXeQ1gGUpiq6cd_45plSts7vLrp8OUIPK_eA&usqp=CAU" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">His father's name is Vasudevan and mother's name is Vennila, his father was born in Kalapur and his mother was born in Kattukudipatti.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshSiblingsPage" class="rk-siblings">
+            <h1 class="rk-detail-page-heading">Siblings</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqcwFtoJPpEhgv-G0IsukWUqZS2CeJKHwTqg&usqp=CAU" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He has one younger brother, name is Vigneshwaran. He also living in Kattukudipatti. He completed his school (+2) in 2022. After completed of his school, he started his degree.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshHobbiesPage" class="rk-hobbies">
+            <h1 class="rk-detail-page-heading">Hobbies</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162433/My%20project%20images/IMG-20230416-WA0009_vnqvvo.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He gives always interest to learn new things, playing cricket, watching movies, spend time with friends, gym workout, and think how to become better than before.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshChildhoodPage" class="rk-childhood">
+            <h1 class="rk-detail-page-heading">Childhood</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162432/My%20project%20images/IMG-20230416-WA0000_bqndw5.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">In childhood, he was a food lover, including snacks. He knew not to waste the food in early age and he was a example for many things in his brother for doing good things.
+                <p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshCarLovePage" class="rk-car-love">
+            <h1 class="rk-detail-page-heading">Car Love</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162418/My%20project%20images/IMG-20230416-WA0002_xtlwnk.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He loving a cars too deeply, from his childhood to now. In early age he bought a many car toys. One of the memorable moments was his neighbor bought him a car toy unfortunately it was final exam, he was excited to play with that toy, but his parents told him, after complition of your all exams, play with that. He hard to controlled his interest to play with that, after he completed his exams, he returned to his home and took out the car toy and played with joy. </p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshCollegePage" class="rk-college">
+            <h1 class="rk-detail-page-heading">College</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162406/My%20project%20images/IMG-20230416-WA0010_kcvi9k.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He completed his Diploma in Mechatronics Engineering in Vivekananda Polytechnic College in Kummangudi, he was outstanding student in his class. He was a class teacher's favorite student in his class. Later he completed his UG in Alagappa University in Karaikudi.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshAmbitionPage" class="rk-ambition">
+            <h1 class="rk-detail-page-heading">Ambition</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162406/My%20project%20images/IMG-20230416-WA0008_otdxbj.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He want to become a design engineer. He always ready to put efforts for doing that, but there is no one with him for teaching and he is waiting long to buy a new laptop.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshDreamPage" class="rk-dream">
+            <h1 class="rk-detail-page-heading">Dream</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684162406/My%20project%20images/IMG-20230416-WA0007_xrfqwi.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">His long-term dream is to start a car company(building coach), because of his love for a cars. His short-term dream is getting muscular body with fitness, he goes to the gym regularly without fail.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionRakeshWorkExperience" class="text-center pb-5 pt-4">
+            <h1 class="rk-experience-heading">LMW</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEhslAIp-bXpGVRgP4lV2dFXRx_x7U-h_xzg&usqp=CAU" class="rk-experience-img-size" />
+            <p class="rk-experience-para">He was selected in LMW(Lakshmi Machine Work) company in Coimbatore, in campus interview in his college. He worked in that company in 20 days.</p>
+            <h1 class="rk-experience-heading">Ashok Leyland</h1>
+            <img src="https://www.vinavu.com/wp-content/uploads/2018/03/Ashok-Leyland-Hosur-Unit-II-Slider-1.jpg" class="rk-experience-img-size" />
+            <p class="rk-experience-para">While he worked in LMW, class sir share the post, which was selected students in Ashok Leyland Unit-2 in Hosur. So he resigned his job and went to the Ashok Leyland Unit-2, worked in 1 years and 8 months and completed his Bvoc(Bachelor of Vocational) in Industrial Automation degree also.</p>
+            <div class="text-left pl-4 pt-3">
+                <button class="btn btn-primary w-25 text-light" onclick="display('sectionRakeshDetailedPage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script>
+  function display(sectionId) {
+    // Hide all sections
+    document.querySelectorAll("div[id^='sectionRakesh']").forEach(sec => sec.style.display = "none");
+    // Show the clicked section
+    document.getElementById(sectionId).style.display = "block";
+  }
+
+  // By default, show homepage
+  display("sectionRakeshHomePage");
+</script>
+
+</body>
+
+</html>

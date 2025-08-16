@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7308e4a722.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <div id="sectionSanthosHomePage" class="pb-5">
+            <div class="d-flex flex-row justify-content-center">
+                <button class="btn btn-primary know-more-button" onclick="display('sectionSanthosDetailedPage')">Know More</button>
+            </div>
+        </div>
+    </div>
+    <div class="rk-detail-page-bg-container">
+        <div id="sectionSanthosDetailedPage">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939731/IMG-20230524-WA0004_u24ckl.jpg" class="rk-nav-img-size" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#" onclick="display('sectionSanthosHomePage')">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="#" onclick="display ('sectionSanthosDetailedPage')">Main page</a>
+                        <a class="nav-item nav-link" href="#" onclick="display('sectionSanthosWorkExperience')">Work Experiences</a>
+                    </div>
+                </div>
+            </nav>
+            <div>
+                <h1 class="rk-detail-page-text-style" onclick="display('sectionSanthosAboutPage')">About<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" class="icon-adjust" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosParentPage')">Parents<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosSiblingsPage')">Siblings<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosHobbiesPage')">Hobbies<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosChildhoodPage')">Childhood<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosCollegePage')">College<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosCarLovePage')">Cake Love<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosAmbitionPage')">Ambition<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+                <h1 class="rk-detail-page-text-style-1" onclick="display('sectionSanthosDreamPage')">Dream<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon icon-adjust" viewBox="0 0 16 16">
+                        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278zM4.858 1.311A7.269 7.269 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.316 7.316 0 0 0 5.205-2.162c-.337.042-.68.063-1.029.063-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286z" />
+                    </svg></h1>
+            </div>
+            <div class="rk-detail-page-bottom-container bg-light mt-5">
+                <h1 class="rk-detail-page-text-style-3 ml-3">Contact Me</h1>
+                <div class="d-flex flex-row ml-4">
+                    <i class="fab fa-whatsapp icon-adjust-1 mt-1"></i>
+                    <p class="rk-detail-page-text-style-4 ml-1 m-1">+918248981550</p>
+                </div>
+                <div class="d-flex flex-row ml-4 mt-2">
+                    <i class="fab fa-facebook-square icon-adjust-1"></i>
+                    <p class="rk-detail-page-text-style-4 ml-1">Sevugamoorthi</p>
+                </div>
+                <div class="d-flex flex-row ml-4 ">
+                    <i class="fas fa-envelope icon-adjust-1"></i>
+                    <p class="rk-detail-page-text-style-4 ml-1">sevugamoorthi738@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div id="sectionSanthosAboutPage" class="rk-about">
+            <h1 class="rk-detail-page-heading">About</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939730/IMG-20230524-WA0008_malfyh.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He was lived in Devakottai. He completed his school from 1st to 5th in Lotus A.M.Venkatachalam(CBSC),from 6th to 8th in N.S.M.V.P.S Hr.Sec School and from 9th to 10th in St.Joseph Hr.Sec School.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosParentPage" class="rk-parent">
+            <h1 class="rk-detail-page-heading">Parents</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1685202419/IMG-20230526-WA0002_qyqemf.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">His father's name is S.Balamurugan and mother's name is B.Sangeetha, his father was born in Devakottai and his mother was born in Arrupukottai.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosSiblingsPage" class="rk-siblings">
+            <h1 class="rk-detail-page-heading">Siblings</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1685202419/IMG-20230526-WA0000_oq7ezv.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He has one elder brother, name is B.Kartheeswaran. He living in Chennai. He completed his Higher Secondary in Infant Jesus Hr.Sec School. After completed of his school, he completed his degree BE.EEE in Kln college of institute and technology. Now working in the company called Data Patterns.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosHobbiesPage" class="rk-hobbies">
+            <h1 class="rk-detail-page-heading">Hobbies</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939730/IMG-20230524-WA0009_ii5fdx.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">His hobbies are watching movies, playing volley ball, spend time with friends and fun with them, playing games in mobile phones.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosChildhoodPage" class="rk-childhood">
+            <h1 class="rk-detail-page-heading">Childhood</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1685277511/IMG-20230526-WA0001_owijlr.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">In his childhood, his cousin taught him a like how to drive a hero honda bike. After he learned himself and drove a non-gear bike(xl). Fought with his parents and his elder brother, he is a toy lover in his childhood.
+                <p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosCarLovePage" class="rk-car-love">
+            <h1 class="rk-detail-page-heading">Cake Love</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939730/IMG-20230524-WA0007_jzepyl.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He still loving a cake not measurable, he loved cake in all flavours of cake but chocolate cake is very special to him. He ate wide variety of cakes from childhood to now, his love from cake will never fade.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosCollegePage" class="rk-college">
+            <h1 class="rk-detail-page-heading">College</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939731/IMG-20230524-WA0010_sft73l.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He completed his Diploma in Mechatronics Engineering in Vivekananda Polytechnic College in Kummangudi, he was naughty student in his class and made lot of fun with friends. Later he completed his UG in Alagappa University in Karaikudi.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosAmbitionPage" class="rk-ambition">
+            <h1 class="rk-detail-page-heading">Ambition</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939732/IMG-20230524-WA0003_csqc45.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">He want to become a welder(arc), he loved welding too much and he started his training in his knew person. He done when he really wants.</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosDreamPage" class="rk-dream">
+            <h1 class="rk-detail-page-heading">Dream</h1>
+            <div class=" d-flex flex-row justify-content-center">
+                <img src="https://res.cloudinary.com/dfvxyjy1b/image/upload/v1684939730/IMG-20230524-WA0005_zl8hxy.jpg" class="rk-detail-page-img-size" />
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p class="rk-detail-page-para">His long-term dream is to start a business. His short-term dream is welder(arc).</p>
+            </div>
+            <div class="pb-3 pl-2">
+                <button class="btn btn-primary w-25 h-50" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+        <div id="sectionSanthosWorkExperience" class="text-center pb-5 pt-4">
+            <h1 class="rk-experience-heading">Moorthi welding shop(Guna Welding)</h1>
+            <p class="rk-detail-page-para">He worked in Moorthi welding shop in his early age. Because he never allowed to waste his time.</p>
+            <h1 class="rk-experience-heading">Pandiyan Kadalaikadai</h1>
+            <p class="rk-experience-para">He worked in this also in his early age.</p>
+            <h1 class="rk-experience-heading">Krishna Bakery</h1>
+            <p class="rk-experience-para">His favorite and mature aged shop is this, in this shop he learned many things and his holiday was went with that.</p>
+            <h1 class="rk-experience-heading">Ashok Leyland</h1>
+            <p class="rk-experience-para">He loved this company and waited for a long to join with this company. He went to the Ashok Leyland Unit-2, worked in 1 years and 8 months and completed his Bvoc(Bachelor of Vocational) in Industrial Automation degree also.</p>
+            <div class="text-left pl-4 pt-3">
+                <button class="btn btn-primary w-25 mb-5 text-light" onclick="display('sectionSanthosDetailedPage')">Back</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function display(sectionId) {
+            // Hide all sections
+            document.querySelectorAll("div[id^='section']").forEach(sec => sec.style.display = "none");
+            // Show the clicked section
+            document.getElementById(sectionId).style.display = "block";
+        }
+
+        // By default, show homepage
+        display("sectionSanthosHomePage");
+    </script>
+</body>
+
+</html>

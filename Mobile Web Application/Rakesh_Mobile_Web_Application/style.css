@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.rk-detail-page-bg-container {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD3uevb99c6Pweuc2ltcpQyx5bXOjlWVHA9g&usqp=CAU');
+    background-size: cover;
+    height: 100%;
+}
+
+.rk-detail-page-text-style {
+    color: #babdd1;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.rk-detail-page-text-style-1 {
+    color: #babdd1;
+    font-family: "Playfair Display";
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.icon-adjust {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.icon-adjust-1 {
+    color: #babdd1;
+}
+
+.rk-detail-page-text-style-2 {
+    color: #babdd1;
+    font-size: 20px;
+}
+
+.rk-detail-page-bottom-container {
+    background-color: #1f2324;
+}
+
+.rk-detail-page-text-style-3 {
+    color: #babdd1;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.rk-detail-page-text-style-4 {
+    color: #babdd1;
+    font-size: 9px;
+}
+
+.rk-detail-page-img-size {
+    width: 270px;
+    margin-top: 50px;
+}
+
+.rk-detail-page-para {
+    color: #babdd1;
+    font-family: "Playfair Display";
+    padding: 15px;
+    margin-bottom: px;
+    margin-top: 10px;
+}
+
+.rk-detail-page-heading {
+    color: #babdd1;
+    font-family: "Playfair Display SC";
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+
+#sectionRakeshHomePage {
+    background-image: url('https://res.cloudinary.com/dfvxyjy1b/image/upload/v1683049665/My%20project%20images/IMG_20230502_231620_fzgok3.jpg');
+    background-size: cover;
+    height: 720px;
+}
+
+.know-more-button {
+    border-width: 0px;
+    margin-top: 650px;
+    border-width: 0px;
+}
+
+.rk-about {
+    padding-bottom: 180px;
+}
+
+.rk-parent {
+    padding-bottom: 270px;
+}
+
+.rk-siblings {
+    padding-bottom: 60px;
+}
+
+.rk-hobbies {
+    padding-bottom: 150px;
+}
+
+.rk-childhood {
+    padding-bottom: 260px;
+}
+
+.rk-car-love {
+    padding-bottom: 130px;
+}
+
+.rk-college {
+    padding-bottom: 210px;
+}
+
+.rk-dream {
+    padding-bottom: 190px;
+}
+
+.rk-ambition {
+    padding-bottom: 250px;
+}
+
+.rk-nav-img-size {
+    width: 11vw;
+    height: 8vh;
+    border-radius: 30px;
+}
+
+.rk-experience-para {
+    color: #babdd1;
+    font-family: "Playfair Display";
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.rk-experience-heading {
+    color: #babdd1;
+    font-family: "Playfair Display";
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.rk-experience-img-size {
+    width: 270px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
